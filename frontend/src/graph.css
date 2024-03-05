@@ -1,0 +1,9 @@
+svg text {
+  font-family: "Roboto";
+  fill: #40484c;
+  font-size: 10px;
+}
+
+.tick line {
+  stroke: rgba(25, 28, 30, 0.12);
+}

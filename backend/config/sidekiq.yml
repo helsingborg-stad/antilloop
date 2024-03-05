@@ -1,0 +1,13 @@
+development:
+  :concurrency: 1
+dev:
+  :concurrency: 1
+staging:
+  :concurrency: 1
+production:
+  :concurrency: 1
+:queues:
+  - default
+  - webhook
+  - integrations
+  - ducky

@@ -1,0 +1,46 @@
+#Files in the config/locales directory are used for internationalization
+#and are automatically loaded by Rails. If you want to use locales other
+#than English, add the necessary files in this directory.
+#To use the locales, use `I18n.t`:
+#I18n.t "hello"
+#In views, this is aliased to just `t`:
+#<%= t("hello") %>
+#To use a different locale, set it with `I18n.locale`:
+#I18n.locale = :es
+#This would use the information in config/locales/es.yml.
+#The following keys must be escaped otherwise they will not be retrieved by
+#the default I18n backend:
+#true, false, on, off, yes, no
+#Instead, surround them with single quotes.
+#en:
+#"true": "foo"
+#To learn more, please read the Rails Internationalization guide
+#available at https://guides.rubyonrails.org/i18n.html.
+sv:
+  api:
+    errors:
+      something_went_wrong: "Något gick fel"
+      not_found: "Hittas inte"
+      invalid_locale: "Ogiltigt språk"
+      unprocessable_entity: "Datan kan inte bearbetas"
+      unauthorized: "Ej behörig"
+      forbidden: "Otillåtet"
+  account:
+    errors:
+      email_is_already_taken: "E-postadressen används redan"
+      user_invite_not_found: "Användarinbjudan hittas inte"
+      can_not_create_account: "Konto kan inte skapas"
+      does_not_exist: "Oj då, det här kontot finns inte. Du behöver vara en lärare och inbjuden till systemet för att kunna logga in. Är du lärare? Kontakta oss för mer information."
+  school_integration:
+    errors:
+      settings_are_not_valid: "Fel på inställningarna"
+      something_went_wrong: "Något gick fel. Kontrollera inställningarna och försök igen."
+  section:
+    plant_care:
+      name: "Växtvård"
+    environmental_monitor:
+      name: "Miljöövervakare"
+    food_tracker:
+      name: "Matspårare"
+    electricity_meter:
+      name: "Elmätare"

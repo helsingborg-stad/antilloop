@@ -1,0 +1,410 @@
+{
+  "to_home": "Go to Home page",
+  "page_not_found": "Oops! This Page is Missing",
+  "page_not_found_description": "We couldn't find what you were looking for. Would you like to give it another try?",
+  "ducky": {
+    "calculator": "Footprint calculator",
+    "by_ducky": "by ducky.eco",
+    "energy": {
+      "microwave": "microwave",
+      "heater": "heater",
+      "stove top": "stove top",
+      "coffe maker": "coffe maker",
+      "kettle": "kettle",
+      "dishwasher": "dishwasher",
+      "plasma TV": "plasma TV",
+      "LED TV": "LED TV",
+      "laptop": "laptop",
+      "stationary computer": "stationary computer",
+      "playstation 4 & plasma TV": "playstation 4 & plasma TV",
+      "stereo": "stereo",
+      "vacuum cleaner": "vacuum cleaner",
+      "hair dryer": "hair dryer",
+      "lawnmower": "lawnmower",
+      "a households energy use": "a households energy use",
+      "production from a 3MW windmill": "production from a 3MW windmill",
+      "years": "years",
+      "months": "months",
+      "days": "days"
+    }
+  },
+  "privacy_policy": {
+    "link": "Privacy Policy",
+    "title": "Privacy Policy for Antiloop",
+    "updated": "Last updated: {{date}}",
+    "intro": "Welcome to the Antiloop provided by the City of Helsingborg and Innocode AS. This Privacy Policy outlines how we collect, use, and protect information while you access and use our web service. By using our service, you agree to the practices described in this policy.",
+    "information_collect": {
+      "title": "Information We Collect:",
+      "user_title": "User Information:",
+      "user": "When teachers with Helsingborg email accounts log in to the school workspaces, we collect and store their names for identification purposes. Children cannot log in, and we do not collect information from them directly.",
+      "sensors_title": "School Sensors Data:",
+      "sensors": "We collect environmental data such as temperature, humidity, and air quality from sensors installed in schools within the City of Helsingborg. Our sensors do not collect any personal data.",
+      "cookies_title": "Essential Cookies:",
+      "cookies": "We may use essential cookies to ensure the proper functioning of the website. These cookies are necessary for providing you with access to the web service and its core features. No marketing or tracking cookies are used."
+    },
+    "information_use": {
+      "title": "How We Use Your Information:",
+      "identification_title": "User Identification:",
+      "identification": "We use teachers' names to provide personalised access to the school workspaces and to ensure that authorised personnel can access the relevant data.",
+      "display_title": "Data Display:",
+      "display": "We display the collected school sensors data in its original form. This data is presented for informational purposes and to promote transparency about the environmental conditions within Helsingborg schools."
+    },
+    "legal_basis_processing_title": "Legal Basis for Processing",
+    "legal_basis_processing": "We process your information based on the necessity to provide access to the Antiloop service and for the legitimate interest of promoting transparency and environmental awareness within the community.",
+    "data_retention_title": "Data Retention",
+    "data_retention": "We retain user names and school sensors data for as long as necessary to fulfill the purposes outlined in this Privacy Policy. Teachers' names are stored to provide ongoing access to the service, while school sensors data is retained to ensure the historical accuracy of the information presented.",
+    "data_security_title": "Data Security",
+    "data_security": "We have implemented appropriate technical and organizational measures to protect your information from unauthorized access, disclosure, alteration, or destruction. However, please be aware that no data transmission over the internet or electronic storage method is 100% secure, and we cannot guarantee absolute security.",
+    "your_rights_title": "Your Rights",
+    "your_rights": "Under the General Data Protection Regulation (GDPR), you have the right to access, rectify, erase, restrict, or object to the processing of your personal data. To exercise these rights or if you have any questions about your data, please contact us at <0>{{email}}</0>.",
+    "changes_title": "Changes to this Privacy Policy",
+    "changes": "We reserve the right to update this Privacy Policy as needed. Any changes will be posted on this page, and the date of the last update will be revised accordingly. We recommend reviewing this Privacy Policy periodically to stay informed about how we protect your information.",
+    "end": "Thank you for using the Antiloop service provided by the City of Helsingborg and Innocode AS."
+  },
+  "meta": {
+    "description": "Empower schoolchildren, educators, and communities on the path to climate neutrality with Antiloop. Explore real-time insights into noise, food waste, energy use, air quality, and more. Inspire youth to drive change and shape a sustainable future."
+  },
+  "general": "General",
+  "weather_forecast": "Weather forecast",
+  "school_settings_form": {
+    "webhook": "Webhook URL",
+    "webhook_note": "Webhook URL is generated for school integration with various sensors. You can use \"Webhook URL\" to connect new sensors to your school",
+    "color": "School color (HEX)",
+    "color_note": "Use HEX color code only. Note, this background color should contrast with the school logo.",
+    "logo": "School logo",
+    "logo_note": "The logo should be in PNG or SVG format with transparent background. The height should be at least 256 pixels and the max file size 4 Mb.",
+    "name": "School name",
+    "note": "This is public information about your school, it is available to all visitors. Anyone can see this information when they visit your school's public page",
+    "copy_webhook": "Copy Webhook URL",
+    "copy_webhook_success": "Webhook URL copied"
+  },
+  "date_picker": {
+    "invalid": "Invalid date",
+    "future": "Date can't be in the future",
+    "min": "Can't select before \"{{label}}\"",
+    "max": "Can't select after \"{{label}}\"",
+    "year_range": "You can only pick a time less than 1 year."
+  },
+  "no_graph_data": "Ooops! I don't have any data!",
+  "time_period": "Time period",
+  "days_ago": "{{days}} days ago",
+  "today": "today",
+  "yesterday": "yesterday",
+  "empty_dashboard_title": "Oops! Looks like there's no data here yet. Stay tuned for updates!",
+  "empty_dashboard_subtitle": "For more information about joining the initiative <0>check out this page</0>.",
+  "last_5h": "Last 5 hours",
+  "last_24h": "Last 24 hours",
+  "last_7_days": "Last 7 days",
+  "apply": "Apply",
+  "cancel": "Cancel",
+  "start_date": "Start date",
+  "end_date": "End date",
+  "integration_simple_empty": "Click “Activate” to enable the  \"{{integration}}\" integration.",
+  "integration_simple_active_note": "The \"{{integration}}\" integration is now active.",
+  "integration_empty": "Integration settings are empty. Complete the fields below to activate the \"{{integration}}\" integration.",
+  "error": "Error",
+  "integration_error": "Something went wrong. Check the integration settings and try again.",
+  "activate": "Activate",
+  "deactivate": "Deactivate",
+  "integration_active": "Integration activated!",
+  "integration_active_note": "The \"{{integration}}\" integration is now active. You can update the integration by modifying the settings below.",
+  "settings": "Settings",
+  "electricity": {
+    "translation": {
+      "buns": "The cost of <0>{{kwh}} kWh</0> of electricity that we used {{time}} is the same as the cost of <0>{{number}} cinnamon buns</0>.",
+      "tree": "We’ve left a footprint of <0>{{co2}} Kg CO2-eq.</0> {{time}}. It will take a forest of <0>{{number}} M2</0> and a year to clean the air.",
+      "car": "School energy usage {{time}} is like a gasoline car trip from {{from}} to {{to}}, covering <0>{{km}} Km</0>.",
+      "plane": "<0>{{co2}} Kg CO2-eq.</0> equals a plane journey in economy class from {{from}} to {{to}}, spanning <0>{{km}} Km</0>.",
+      "energy": "School energy usage {{time}} has produced the carbon footprint similar to <0>{{quantity}} {{unit}}</0> of {{device}} usage.",
+      "no_data": "Check back later for your carbon footprint."
+    },
+    "co2_unit": "Kg CO2-eq.",
+    "footprint_created": "carbon footprint created",
+    "title": "Grid electricity consumption",
+    "title_quick_link": "Electricity",
+    "unit": "kWh",
+    "timeline": "Electricity timeline",
+    "translation_title": "Understand the carbon footprint",
+    "cost_title": "Electricity cost",
+    "calculation": "<0>{{price}}</0> kr <1>=</1> <0>{{number}}</0> cinnamon buns",
+    "about": "About grid electricity consumption",
+    "info": {
+      "1": "Electric energy powers our homes and schools, making everyday things like lights, TV, and gadgets work. It's something we can't imagine living without.",
+      "2": "A 'kWh' (kilowatt-hour) is a way to measure how much electricity we use over time. Think of it like the amount of water you drink. Some things, like a phone, use a little electricity, like taking small sips of water. But bigger things, like a fridge or a washing machine, need more electricity, like drinking in big gulps. We also need to know how long these things are turned on, just like how long you're sipping water. The kWh number here tells us how much electricity the whole school used on a certain day, kind of like counting all the water everyone drank.",
+      "3": "It's important to use electric energy wisely to protect our planet. When we make electricity, it can use up resources and make greenhouse gases, which are not good for the environment. To help, here are some tips:",
+      "4_heading": "Turn Off Lights:",
+      "4": "When you leave a room, turn off the lights. It's like closing the tap when you're done with water.",
+      "5_heading": "Unplug Chargers:",
+      "5": "When you're not using chargers for your devices, unplug them from the wall. Chargers still use a little electricity even when nothing's connected to them.",
+      "6_heading": "Use Natural Light:",
+      "6": "On sunny days, open your curtains to let in natural light instead of using electric lights.",
+      "7_heading": "Be Mindful of Appliances:",
+      "7": "Try not to leave your TV or computer on when you're not using them. Unplug chargers and similar items that are lit up but not in use.",
+      "8": "Some places use clean energy from the sun and wind, which is really good for the environment. So, by being careful with how we use electric energy, we can help save our planet and have the power to do amazing things!"
+    }
+  },
+  "plant_moisture": {
+    "info": {
+      "1": "Ever wondered how we can tell if plants have enough water? We've got some special sensors that go underground! These sensors check the soil to see how much water is there. We call it \"volumetric water content\"- it's about how much water is in the soil compared to the soil itself.",
+      "2": "Picture the ground having tiny spaces like a sponge. Some spaces have water, some don't. If the sensors say water content is 20%, it means out of 100 tiny spaces, 20 have water. If it's low, like 20%, your plants might be thirsty. But if it's high, like 80%, plants are drinking up!",
+      "3": "You know how we need water to drink, take baths, and water plants? Well, there's only a certain amount of water on our planet, and some places don't have enough. By giving plants just the right amount of water and keeping them healthy, we're being really smart with water and not wasting it. So, you're not just making plants happy, you're also helping to save water, which is super important.",
+      "4": "Plants do something awesome for us too – they give us fresh air! They take in the bad air we don't need and give us back nice, clean air to breathe. So when we take care of plants, they take care of us too. And guess what? By looking after plants, you're like a superhero for our planet! Plants make homes for bugs and animals, and they make the Earth look beautiful and green.",
+      "5": "How can one plan for the soil moisture to be well-suited for the plants that are planted in that specific area?"
+    },
+    "about": "About soil moisture",
+    "unit": "% moisture",
+    "level": {
+      "dry": "🥵 Dry soil",
+      "ok": "😌 Just enough water",
+      "wet": "💦 Too much water",
+      "no_data": "No data"
+    },
+    "note": {
+      "dry": "The soil is very dry right now. What happens if the soil remains dry for too long?",
+      "ok": "Now the soil is healthy and has the right amount of moisture. Why is this good for the plants?",
+      "wet": "The soil is very wet now. What does it mean if the soil is too wet for an extended period?",
+      "no_data": "It seems like the sensor is not working. Perhaps it needs a new battery?"
+    }
+  },
+  "co2": {
+    "timeline": "Air quality timeline: PPM CO2",
+    "unit": "PPM",
+    "title": "Air quality now: PPM CO2",
+    "level": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "bad": "Bad"
+    },
+    "note": {
+      "excellent": "Breathe easily and enjoy learning in the fresh air!",
+      "good": "Keep up the great work, let's stay focused!",
+      "fair": "Decent conditions for learning things.",
+      "poor": "Not such good air for learning things.",
+      "bad": "The air is terrible for being able to learn things."
+    },
+    "info": {
+      "1": "CO2 is a gas we exhale, and a little is okay. But when there's too much CO2 inside our homes or classrooms, it can make us feel tired, have trouble concentrating, and even give us headaches.",
+      "2": "PPM is a way to measure CO2 levels. It stands for \"parts per million.\" PPM tells us how many CO2 molecules are in the air we breathe. The lower the PPM, the better the air quality!\n\nFor the air in the classroom to be considered good, the carbon dioxide level should be under 600 ppm. If the level is between 600-800 ppm, you probably need to bring in fresh air. Anything above 800 ppm creates worse conditions for a good learning environment.",
+      "3": "To keep air fresh, open windows and take short breaks outside. Plants help clean the air too! Breathe easy, stay healthy, and have fun!"
+    },
+    "about": "About CO2"
+  },
+  "particles": {
+    "25_note": {
+      "good": "Air's crystal clear!",
+      "moderate": "There are a bit too many particles in the air. What can you do to avoid them?",
+      "poor": "The air is not very good. Why is that?",
+      "bad": "Red alert for very poor air quality! How come?"
+    },
+    "100_note": {
+      "good": "Air's crystal clear!",
+      "moderate": "The air contains just a little too many particles.",
+      "poor": "The air is not so good. What is the reason for this?",
+      "bad": "Red alert for very poor air quality!"
+    },
+    "level": {
+      "good": "Good",
+      "moderate": "Moderate",
+      "poor": "Poor",
+      "bad": "Bad"
+    },
+    "100_quick_link": "Air quality PPM 10",
+    "25_quick_link": "Air quality PPM 2.5",
+    "100_title": "Air quality now: PM 10 microns",
+    "25_title": "Air quality now: PM 2,5 microns",
+    "unit": "µg/m³",
+    "100_timeline": "Air quality timeline: PM 10 microns",
+    "25_timeline": "Air quality timeline: PM 2,5 microns",
+    "100_about": "PM10 particles",
+    "25_about": "PM2.5 particles",
+    "100_info": {
+      "1": "PM10 refers to particles with a diameter of 10 micrometers or less. These particles are larger than PM2.5 particles and can sometimes be seen as tiny specks of dust or smoke. They come from sources like dust from construction sites, pollen, smoke from burning wood, and particles kicked up by vehicles or wind.",
+      "2": "We can reduce PM10 particles by keeping our surroundings clean, like sweeping up dust and avoiding activities that kick up dust or smoke.",
+      "3": "If the levels are high, we can wear face masks designed to filter out particles, especially when doing activities that stir up dust. We can also try to stay indoors or find areas with cleaner air, like parks with lots of trees."
+    },
+    "25_info": {
+      "1": "PM2.5 refers to particles with a diameter of 2.5 micrometers or less. These particles are very tiny and can't be seen with the naked eye.\n\nFor PM2.5, a value between 13-35 µg/m³ is totally okay. Anything under 13 µg/m³ is good, and above 35 µg/m³, the air quality is poor.",
+      "2": "They come from sources like vehicle exhaust, industrial emissions, smoke from fires, dust, and pollutants from factories. Activities like burning fossil fuels, construction, and even cooking can contribute to the presence of PM2.5 particles in the air.",
+      "3": "We can help reduce PM2.5 particles by using clean energy sources, like solar or wind power, and by planting trees and creating green spaces.",
+      "4": "If the levels are high, we can wear face masks specifically designed to filter out PM2.5 particles when we're outside. We can also stay indoors and close windows to keep the polluted air out."
+    }
+  },
+  "temperature": {
+    "outside_temp": {
+      "less_than-25": "Extreme",
+      "less_than-10": "Frosty",
+      "less_than8": "Cold",
+      "less_than15": "Cool",
+      "less_than25": "Warm",
+      "less_than35": "Heat"
+    },
+    "inside_temp": {
+      "less_than14": "Extreme",
+      "less_than16": "Cold",
+      "less_than19": "Feeling fine",
+      "less_than24": "Comfort zone",
+      "less_than28": "Hot",
+      "more_than28": "Extreme"
+    },
+    "inside_note": {
+      "less_than14": "It's difficult to do schoolwork when it's too cold.",
+      "less_than16": "Do you think this is a good working temperature?",
+      "less_than19": "Do you think this is a good working temperature?",
+      "less_than24": "It's the perfect temperature for a classroom.",
+      "less_than28": "Do you think this is a good working temperature?",
+      "more_than28": "Now it's way too hot."
+    },
+    "outside_note": {
+      "less_than-25": "Walking outside is dangerous. Be careful!",
+      "less_than-10": "Put on warm clothes! It's super chilly outside.",
+      "less_than8": "Put on a jacket and a scarf!",
+      "less_than15": "Do you think this is a normal temperature for the season?",
+      "less_than25": "Do you think this is a normal temperature for the season?",
+      "less_than35": "It's very hot outside!",
+      "more_than35": "It's too hot to walk outside. Be careful!"
+    },
+    "temperature_outdoor": "Temperature outdoor",
+    "temperature": "Temperature",
+    "inside_timeline": "Temperature timeline",
+    "deg": "°C",
+    "indor_about": "About temperature inside",
+    "outside_about": "About temperature outside",
+    "outdor_info": {
+      "1": "Temperature tells us if something is hot or cold. It helps us know what kind of weather to expect and how to stay comfy and focused.",
+      "2": "We use degrees Celsius to measure temperature. When it's freezing outside, the temperature is 0 degrees Celsius, and when water boils, it's 100 degrees Celsius. For example, on a sunny day, it feels warm outside, and the temperature might be 25°C. Inside a cozy room, it could be 18°C. In winter, it can get very cold outside, around 5°C or even less.",
+      "3": "Over the past century, Earth's average temperature has risen. This is happening due to activities of humans, such as burning fossil fuels (coal, oil, and gas) and cutting down too many trees. These activities release greenhouse gases into the air. Greenhouse gases trap heat from the sun, causing our planet to warm up. As a result of this warming, glaciers melt and sea levels rise. We also experience more periods of extremely high temperatures, known as heat waves.\n\nBut we can work together to make things better! What can we do to reduce global warming?"
+    },
+    "indor_info": {
+      "1": "Temperature measures how hot or cold something is. We use degrees Celsius (°C) for this. A comfortable study temperature is around 20-24°C (68-75°F). It helps us focus and learn better.",
+      "2": "Indoor temperature affects the planet. Using too much energy for heating and cooling releases greenhouse gases, causing climate change. Let's do our part to be sustainable:",
+      "3": "Use Less Energy: Turn off unnecessary lights, fans, and AC to save energy and money.",
+      "4": "Dress Smartly: Wear warm clothes in cold rooms and light clothes in hot rooms.",
+      "5": "Natural Ventilation: Open windows for fresh air when possible.",
+      "6": "Plant Trees: Trees provide shade and absorb greenhouse gases.",
+      "7": "Talk to Others: Share what you've learned about sustainability and climate change. Together, we can make a difference!"
+    }
+  },
+  "food_menu": {
+    "menu": "Weekly menu",
+    "waste": "Waste",
+    "range": {
+      "last_week": "Last week",
+      "current_week": "Current week",
+      "next_week": "Next week"
+    },
+    "note": {
+      "1": "Eat smart, waste less!",
+      "2": "Fill your plate wisely! Can you finish all of it?",
+      "3": "Choose just enough!",
+      "4": "Taste and treasure!",
+      "5": "Your plate, your power!",
+      "6": "Together, we can make a difference!"
+    }
+  },
+  "food_waste": {
+    "menu": "Menu",
+    "food_waste_timeline": "Food waste timeline",
+    "per_student": "~{{per_student}} meatballs per student were wasted",
+    "waste": "Food waste {{time}}",
+    "today": "today",
+    "kg": "kg",
+    "about": "About food waste",
+    "info": {
+      "first": "How was the food you ate today? Did you know that a lot of food in the school restaurants are being thrown away! In our city alone, the food waste from all schools equals the weight of a whole elephant!",
+      "second": "Here you can see a combination of how much food your school has thrown away, from the plates of the students and from the kitchen. A meatball is estimated to weigh 12.5 grams. Any food waste that weighs less than 9 grams per student is considered good. If the food waste is 10-20 grams per student, there is room for improvement, and anything over 20 grams per student is way too much.\n\nDid you know that on a lunch day with really popular food served, you throw away more food than on a day with less tasty food!",
+      "third": "Have a conversation with your classmates. Why do we throw away all this food? How can we waste less?"
+    },
+    "note": {
+      "good": "Very good",
+      "medium": "A bit too much ends up as food waste, doesn't it?",
+      "poor": "Ouch! Too much food going to waste!"
+    }
+  },
+  "sound_level": {
+    "db": "dB",
+    "now": "Sound now",
+    "good": "Good",
+    "medium": "Medium",
+    "poor": "Poor",
+    "noData": "No data",
+    "sound_timeline": "Sound timeline",
+    "note": {
+      "good": "Good learning conditions",
+      "medium": "Harder to focus, difficult to learn",
+      "poor": "Bad conditions for learning"
+    },
+    "info": "The small sound sensor located on the classroom wall measures the noise level in the classroom and displays it in Antiloop. This little sensor can detect how loud the voices are, measure noise generated when chairs are moved, or when someone is banging things around.\n\nThe noise level is measured in decibels (dB). When the noise level is between 60-80 dB, it is often perceived as too high depending on what you are doing in the classroom. If the noise level is below 60 dB, it creates good conditions for concentration, and if it is above 80 dB, it is way too loud.\n\nA classroom should have a good noise level so that you can concentrate and learn things. A conversation at a lower volume is usually better than when the volume is higher. Putting tennis balls on chair legs makes the sounds from the chairs quieter.\n\nLook at the curve for the noise level and talk with a friend about what you can do to affect the overall noise level in the classroom.",
+    "about": "About sound level"
+  },
+  "info": "Info",
+  "school_home": "School home",
+  "pages": "Pages",
+  "integrations": "Integrations",
+  "school_settings": "School settings",
+  "name": "Name",
+  "status": "Status",
+  "location": "Location",
+  "sensors": "Sensors",
+  "contact_us": "Contact us for more details",
+  "no_account_msg": "Ooops, such an account doesn't exist. You need to be a teacher invited to the system in order to Sign in. Are you a teacher?",
+  "no_account": "Account doesn't exist",
+  "ok": "Okay, I got it",
+  "current_number_of_total": "{{current}} of {{total}}",
+  "hello": "Hello!",
+  "add_your_school": "We accept new schools. Click here to read more.",
+  "work_space": "Workspace",
+  "logout": "Log out",
+  "active": "Active",
+  "inactive": "Inactive",
+  "battery": "Battery",
+  "a11y": {
+    "current_selected": "Selected",
+    "logo": "logo",
+    "sensors_table": "Sensors table",
+    "integrations_table": "Integrations table",
+    "pages_table": "Pages table",
+    "sound_level_alt": "{{variant}} sound level image",
+    "meatballs_alt": "Meatballs per student image",
+    "temp_inside_alt": "{{temp}}, temperature inside image",
+    "temp_outside_alt": "{{temp}}, temperature outside image",
+    "particles_25_alt": "{{particles}} Air quality: PM 2,5 microns image",
+    "particles_100_alt": "{{particles}} Air quality: PM 10 microns image",
+    "co2_alt": "{{cotwo}} Air quality: PPM CO2",
+    "electricity": {
+      "no_data": "CO2 emission image",
+      "tree": "Trees",
+      "car": "Car",
+      "plane": "Plane",
+      "energy": "Electric appliances",
+      "buns": "Cinnamon buns"
+    },
+    "buttons": {
+      "close_menu": "Close menu",
+      "user_menu": "User menu",
+      "language_menu": "Switch language menu, current language is {{language}}",
+      "go_back": "Go back to previous page",
+      "to_school_list": "Go to school list",
+      "to_school": "Go to school",
+      "close_modal": "Close modal",
+      "expand_menu": "Expand menu",
+      "prev_page": "Previous page",
+      "next_page": "Next page",
+      "back_to_integrations": "Back to integrations",
+      "sound_level_info": "Sound level info",
+      "inside_temp_info": "Temperature inside info",
+      "outside_temp_info": "Temperature outside info",
+      "food_waste_info": "Food waste info",
+      "particles_25_info": "Air quality: PM 2,5 microns info",
+      "particles_100_info": "Air quality: PM 10 microns info",
+      "electricity_info": "Grid electricity consumption info",
+      "like_menu": "Like menu",
+      "co2_info": "Air quality: PPM CO2 info",
+      "reset_selected_range": "Reset selected range",
+      "soil_moisture_info": "Soil moisture info",
+      "next_energy_conversion": "Next energy conversion",
+      "prev_energy_conversion": "Prev energy conversion"
+    }
+  }
+}

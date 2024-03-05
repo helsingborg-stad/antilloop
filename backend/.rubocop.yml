@@ -1,0 +1,73 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-factory_bot
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - bin/*
+    - spec/rails_helper.rb
+    - spec/support/*
+    - config/initializers/rswag-ui.rb
+    - config/initializers/rswag_api.rb
+    - db/migrate/*
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - prod
+    - test
+    - dev
+    - development
+RSpec/IndexedLet:
+  Enabled: false
+Style/MultilineBlockChain:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
+Naming/MethodParameterName:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+RSpec/ExampleLength:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
+Lint/MissingSuper:
+  Enabled: false
+Naming/VariableNumber:
+  Enabled: false
+RSpec/DescribeClass:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+Rails/HasAndBelongsToMany:
+  Enabled: false
+RSpec/ScatteredSetup:
+  Exclude:
+    - spec/requests/**/*
+RSpec/VariableName:
+  Exclude:
+    - spec/requests/**/*
+RSpec/EmptyExampleGroup:
+  Exclude:
+    - spec/requests/**/*
+RSpec/RepeatedExampleGroupDescription:
+  Exclude:
+    - spec/requests/**/*
+    - spec/policies/**/*
+RSpec/LetSetup:
+  Exclude:
+    - spec/requests/**/*
+RSpec/RepeatedExample:
+  Enabled: false
+RSpec/RepeatedDescription:
+  Exclude:
+    - spec/policies/**/*

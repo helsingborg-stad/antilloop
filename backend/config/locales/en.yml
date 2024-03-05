@@ -1,0 +1,67 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   "true": "foo"
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  api:
+    errors:
+      something_went_wrong: "Something went wrong"
+      not_found: "Not found"
+      invalid_locale: "Invalid locale"
+      unprocessable_entity: "Unprocessable entity"
+      unauthorized: "Unauthorized"
+      forbidden: "Forbidden"
+  account:
+    errors:
+      email_is_already_taken: "Email is already taken"
+      user_invite_not_found: "User invite not found"
+      can_not_create_account: "Can not create account"
+      does_not_exist: "Ooops, such an account does not exist. You need to be a teacher invited to the system in order to sign in. Are you a teacher? Contact us for more details."
+  school_integration:
+    errors:
+      settings_are_not_valid: "Settings are not valid"
+      something_went_wrong: "Something went wrong. Check the integration settings and try again."
+  ducky:
+    errors:
+      something_went_wrong: "Something went wrong"
+      kwh_is_missing: "kWh is missing"
+      kgco2e_is_missing: "kgCO2e is missing"
+      data_source_key_is_not_valid: "Data source key is not valid"
+  section:
+    plant_care:
+      name: "Plant care"
+    environmental_monitor:
+      name: "Environmental monitor"
+    food_tracker:
+      name: "Food tracker"
+    electricity_meter:
+      name: "Electricity meter"
+    footprint_calculator:
+      name: "Footprint calculator"

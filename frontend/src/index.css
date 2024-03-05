@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --body-bg-color: #dbecdf;
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .bg-food-current {
+    background-color: #cb4b24;
+    background-image: url("@/assets/img/foodWaste/current.png");
+    background-size: 80%;
+    background-position: 300% 30%;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+  }
+  .bg-electricity-current {
+    background-color: #26659f;
+    background-image: url("@/assets/img/electricity/electricity_current.jpg");
+    background-size: 480px 480px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+  }
+  .no-data.bg-electricity-current {
+    background-image: url("@/assets/img/electricity/electricity_nodata.jpg");
+  }
+
+  .plant-moisture-dry {
+    background-color: #725c00;
+    background-image: url("@/assets/img/plant/dry.png");
+    background-position: top -20px right -20px;
+    background-size: 400px 450px;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+  }
+
+  .plant-moisture-ok {
+    background-color: #356a21;
+    background-image: url("@/assets/img/plant/ok.png");
+    background-position: top -20px right -20px;
+    background-size: 400px 450px;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+  }
+
+  .plant-moisture-wet {
+    background-color: #00648e;
+    background-image: url("@/assets/img/plant/wet.png");
+    background-position: top -20px right -20px;
+    background-size: 400px 450px;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+  }
+  .plant-moisture-no_data {
+    background-color: #40484c;
+    background-image: url("@/assets/img/plant/no_data.png");
+    background-position: top -20px right -20px;
+    background-size: 400px 460px;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+  }
+
+  .plant-moisture-wet.quick-link,
+  .plant-moisture-ok.quick-link,
+  .plant-moisture-dry.quick-link,
+  .plant-moisture-no_data.quick-link {
+    background-position: top -20px right -120px;
+  }
+
+  .plant-moisture-wet.quick-link {
+    background-image: url("@/assets/img/plant/wet_condensed.png");
+  }
+  .plant-moisture-ok.quick-link {
+    background-image: url("@/assets/img/plant/ok_condensed.png");
+  }
+  .plant-moisture-dry.quick-link {
+    background-image: url("@/assets/img/plant/dry_condensed.png");
+  }
+  .plant-moisture-no_data.quick-link {
+    background-image: url("@/assets/img/plant/no_data_condensed.png");
+  }
+
+  .weather-quick-link {
+    background-color: #0b6fa0;
+    background-image: url("@/assets/img/weather/weather.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: normal;
+  }
+  .electricity-quick-link {
+    background-color: #0b6fa0;
+    background-image: url("@/assets/img/electricity/electricity.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: normal;
+    background-size: cover;
+  }
+  .footprint-quick-link {
+    background: #033741;
+    background-image: url("@/assets/img/foodWaste/current.png");
+    background-size: 90%;
+    background-position: 500% 30%;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+  }
+
+  @media screen and (max-width: 640px) {
+    .plant-moisture-wet,
+    .plant-moisture-ok,
+    .plant-moisture-dry,
+    .plant-moisture-no_data {
+      background-position: top -20px right -120px;
+    }
+    .plant-moisture-wet {
+      background-image: url("@/assets/img/plant/wet_condensed.png");
+    }
+    .plant-moisture-ok {
+      background-image: url("@/assets/img/plant/ok_condensed.png");
+    }
+    .plant-moisture-dry {
+      background-image: url("@/assets/img/plant/dry_condensed.png");
+    }
+    .plant-moisture-no_data {
+      background-image: url("@/assets/img/plant/no_data_condensed.png");
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    .bg-electricity-current {
+      background-size: 100%;
+    }
+  }
+
+  @media screen and (min-width: 640px) {
+    .bg-electricity-current {
+      background-size: 480px 480px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .bg-electricity-current {
+      background-size: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    .bg-electricity-current {
+      background-size: 480px 480px;
+    }
+    .plant-moisture-wet,
+    .plant-moisture-ok,
+    .plant-moisture-dry,
+    .plant-moisture-no_data {
+      background-position: top -20px right -120px;
+    }
+    .plant-moisture-wet {
+      background-image: url("@/assets/img/plant/wet_condensed.png");
+    }
+    .plant-moisture-ok {
+      background-image: url("@/assets/img/plant/ok_condensed.png");
+    }
+    .plant-moisture-dry {
+      background-image: url("@/assets/img/plant/dry_condensed.png");
+    }
+    .plant-moisture-no_data {
+      background-image: url("@/assets/img/plant/no_data_condensed.png");
+    }
+  }
+}

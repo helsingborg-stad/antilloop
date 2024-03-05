@@ -1,0 +1,410 @@
+{
+  "to_home": "Till startsidan",
+  "page_not_found": "Hoppsan, den här sidan saknas!",
+  "page_not_found_description": "Vi kan inte hitta det du söker. Vill du testa igen?",
+  "ducky": {
+    "calculator": "Utsläppsberäkning",
+    "by_ducky": "med ducky.eco",
+    "energy": {
+      "microwave": "mikrovågsugn",
+      "heater": "element",
+      "stove top": "spishäll",
+      "coffe maker": "kaffebryggare",
+      "kettle": "vattenkokare",
+      "dishwasher": "diskmaskin",
+      "plasma TV": "plasma-TV",
+      "LED TV": "LED-TV",
+      "laptop": "bärbar dator",
+      "stationary computer": "stationär dator",
+      "playstation 4 & plasma TV": "playstation 4 & plasma-TV",
+      "stereo": "stereo",
+      "vacuum cleaner": "dammsugare",
+      "hair dryer": "hårtork",
+      "lawnmower": "gräsklippare",
+      "a households energy use": "energianvändning för ett hushåll",
+      "production from a 3MW windmill": "produktion från ett 3MW vindkraftverk",
+      "years": "år",
+      "months": "månader",
+      "days": "dagar"
+    }
+  },
+  "privacy_policy": {
+    "link": "Integritetspolicy",
+    "title": "Integritetspolicy för Antiloop",
+    "updated": "Senast uppdaterad den {{date}}",
+    "intro": "Välkommen till Antiloop som tillhandahålls av Helsingborgs stad och Innocode AS. Denna integritetspolicy beskriver hur vi samlar in, använder och skyddar information när du använder vår webbtjänst. Genom att använda vår tjänst godkänner du det som beskrivs i denna policy.",
+    "information_collect": {
+      "title": "Information som vi samlar in:",
+      "user_title": "Användarinformation:",
+      "user": "När lärare med Helsingborgs e-postkonton loggar in på skolans arbetsyta i Antiloop samlar vi in och lagrar namnet för identifiering. Barnen kan inte logga in och vi samlar inte information direkt från dem.",
+      "sensors_title": "Data från skolans sensorer:",
+      "sensors": "Vi samlar in data som temperatur, luftfuktighet och luftkvalitet från sensorer installerade i skolor i Helsingborg. Våra sensorer samlar inte in några personuppgifter.",
+      "cookies_title": "Viktiga cookies:",
+      "cookies": "Vi kan behöva använda nödvändiga cookies för att webbplatsen ska fungera korrekt. Dessa cookies behövs för att du ska få tillgång till webbtjänsten och dess kärnfunktioner. Inga marknadsförings- eller spårningscookies används."
+    },
+    "information_use": {
+      "title": "Hur vi använder din information:",
+      "identification_title": "Identifiering av användare:",
+      "identification": "Vi använder lärarnas namn för att ge personligt anpassad tillgång till skolans arbetsyta och för att säkerställa att behörig personal får tillgång till relevanta uppgifter.",
+      "display_title": "Visning av data:",
+      "display": "Vi visar insamlad data från sensorerna i sin ursprungliga form. Uppgifterna presenteras i informationssyfte och för att uppnå transparens kring miljöförhållandena inom Helsingborgs skolor."
+    },
+    "legal_basis_processing_title": "Rättslig grund för behandling",
+    "legal_basis_processing": "Vi behandlar din information utifrån att kunna ge tillgång till tjänsten Antiloop och för det motiverande intresset att främja transparens och miljömedvetenhet inom gruppen.",
+    "data_retention_title": "Lagring av data",
+    "data_retention": "Vi sparar användarnamn och data från sensorer så länge som det behövs för att uppfylla de syften som beskrivs i integritetsspolicyn. Lärarnas namn lagras för att ge löpande tillgång till tjänsten, medan data från skolans sensorer sparas för att säkerställa den historisk noggrannhet i informationen som presenteras.",
+    "data_security_title": "Datasäkerhet",
+    "data_security": "Vi har genomfört lämpliga tekniska och organisatoriska åtgärder för att skydda din information från obehörig åtkomst, utlämnande, ändring eller förstörelse. Var dock medveten om att ingen dataöverföring via internet eller elektronisk lagringsmetod är 100 procent säker, och vi kan inte garantera absolut säkerhet.",
+    "your_rights_title": "Dina rättigheter",
+    "your_rights": "Enligt dataskyddsförordningen (GDPR) har du rätt att få tillgång till, korrigera, radera, begränsa eller invända mot behandlingen av dina personuppgifter. För att utöva dessa rättigheter, eller om du har några frågor om dina data, vänligen kontakta oss på <0>{{email}}</0>.",
+    "changes_title": "Ändringar av sekretesspolicyn",
+    "changes": "Vi förbehåller oss rätten att uppdatera integritetsspolicyn efter behov. Eventuella ändringar kommer att publiceras på denna sida, och datumet för den senaste uppdateringen kommer visas. Vi rekommenderar att du regelbundet granskar integritetsspolicyn för att hålla dig informerad om hur vi skyddar dina uppgifter.",
+    "end": "Tack för att du använder tjänsten Antiloop som tillhandahålls av Helsingborg stad och Innocode AS."
+  },
+  "meta": {
+    "description": "Ge elever, lärare och samhällen ökad kraft att med Antiloop uppnå klimatneutralitet. Utforska insikter kring buller, matsvinn, energianvändning, luftkvalitet och mycket mer. Inspirera ungdomar att driva förändring och forma en hållbar framtid."
+  },
+  "general": "Allmänt",
+  "weather_forecast": "Väderprognos",
+  "school_settings_form": {
+    "webhook": "Webhook URL",
+    "webhook_note": "En Webhook URL genereras för att skapa integration med olika sensorer. Du kan använda \"Webhook URL\" för att ansluta nya sensorer till din skola",
+    "color": "Skolans profilfärg (HEX)",
+    "color_note": "Använd endast färgkod i formatet HEX. Notera att bakgrundsfärgen bör kontrastera mot skolans logotyp.",
+    "logo": "Skolans logga",
+    "logo_note": "Loggan ska vara i formatet PNG eller SVG med transparent bakgrund. Höjden bör vara minst 256 pixlar och max filstorlek är 4 Mb.",
+    "name": "Skolans namn",
+    "note": "Detta är allmän information om din skola och den är tillgänglig för alla besökare. Vem som helst kan se denna information när de besöker din skolas offentliga sida",
+    "copy_webhook": "Kopiera webhook URL",
+    "copy_webhook_success": "Webhook URL har kopierats"
+  },
+  "date_picker": {
+    "invalid": "Ogiltigt datum",
+    "future": "Valt datum kan inte vara i framåt i tiden",
+    "min": "Det går inte att välja före \"{{label}}",
+    "max": "Det går inte att välja efter \"{{label}}",
+    "year_range": "Det går bara att välja ett tidsspann som är mindre än 1 år."
+  },
+  "no_graph_data": "Hoppsan! Det finns ingen data!",
+  "time_period": "Tidsperiod",
+  "days_ago": "{{days}} dagar sen",
+  "today": "idag",
+  "yesterday": "igår",
+  "empty_dashboard_title": "Hej! Ser ut som det inte finns någon data ännu. Håll koll på när det kommer uppdateringar!",
+  "empty_dashboard_subtitle": "För mer information om att gå med i Antiloop <0>kolla in denna sida</0>.",
+  "last_5h": "Senaste 5 timmarna",
+  "last_24h": "Senaste 24 timmarna",
+  "last_7_days": "Senaste 7 dagarna",
+  "apply": "Spara",
+  "cancel": "Avbryt",
+  "start_date": "Startdatum",
+  "end_date": "Slutdatum",
+  "integration_simple_empty": "Klicka på \"Aktivera\" för att aktivera \"{{integration}}\".",
+  "integration_simple_active_note": "Integreringen \"{{integration}}\" är nu aktiv.",
+  "integration_empty": "Integrationsinställningarna är tom. Fyll i fälten nedan för att aktivera integreringen \"{{integration}}\".",
+  "error": "Fel",
+  "integration_error": "Något gick fel. Kontrollera inställningarna och försök igen.",
+  "activate": "Aktivera",
+  "deactivate": "Gör inaktiv",
+  "integration_active": "Integration aktiverad!",
+  "integration_active_note": "Integrationen \"{{integration}}\" är nu aktiv. Du kan uppdatera integrationen genom att ändra inställningarna nedan.",
+  "settings": "Inställningar",
+  "electricity": {
+    "translation": {
+      "buns": "Kostnaden för <0>{{kwh}} kWh</0> el som använts {{time}} är lika mycket som det kostar att köpa <0>{{number}} kanelbullar</0>.",
+      "tree": "Vi har haft utsläpp motsvarande <0>{{co2}} kg koldioxid.</0> {{time}}. Det behövs en skog på <0>{{number}} kvadratmeter</0> för att rena luften under ett års tid.",
+      "car": "Skolans energianvändning {{time}} motsvarar en bensinbilsresa från {{from}} till {{to}}, på <0>{{km}} kilometer</0>.",
+      "plane": "<0>{{co2}} kg koldioxidekvivalenter</0> är lika med en flygresa i ekonomiklass från {{from}} till {{to}}, på <0>{{km}} kilometer</0>.",
+      "energy": "För {{time}} gav skolans energiförbrukning ett koldioxidavtryck som motsvarar <0>{{quantity}} {{unit}}</0> användning av {{device}}.",
+      "no_data": "Titta här igen senare för att få veta mer om skolans koldioxidutsläpp."
+    },
+    "co2_unit": "kg koldioxidekvivalenter",
+    "footprint_created": "koldioxidutsläpp",
+    "title": "Elförbrukning",
+    "title_quick_link": "Elektricitet",
+    "unit": "kWh",
+    "timeline": "Tidslinje för el",
+    "translation_title": "Förstå koldioxidavtrycket",
+    "cost_title": "Elkostnad",
+    "calculation": "<0>{{price}}</0> kr <1>=</1> <0>{{number}}</0> kanelbullar",
+    "about": "Om elförbrukning",
+    "info": {
+      "1": "Elektrisk energi driver våra hem och skolor och gör att vardagliga saker, som lampor, TV och prylar, fungerar. Det är något vi inte kan tänka oss att leva utan.",
+      "2": "En \"kWh\" (kilowattimme) är ett sätt att mäta hur mycket elektricitet vi använder över tid. Tänk på det som hur mycket vatten du dricker. Vissa saker, som en telefon, använder lite elektricitet och det motsvarar att du tar små klunkar vatten. Större saker, som ett kylskåp eller en tvättmaskin, behöver mer el vilket motsvarar att du istället dricker vattnet i stora klunkar. Vi behöver också veta hur länge de elektriska prylarna är påslagna - motsvarande att mäta hur lång tid det tar för dig att dricka vattnet. \n\nKWh-värdet som du ser visar hur mycket el hela skolan förbrukade en viss dag - ungefär som att räkna ut hur mycket vatten alla har druckit tillsammans under en dag.",
+      "3": "Det är viktigt att använda elektrisk energi klokt för att skydda vår planet. När vi tillverkar el används resurser som släpper ut växthusgaser som inte är bra för miljön. Här är några tips för att hjälpa:",
+      "4_heading": "Släck lampor:",
+      "4": "När du lämnar ett rum, släck lamporna. Precis som att du stänger av kranen när du är klar och inte låter vattnet stå och rinna.",
+      "5_heading": "Dra ut sladden:",
+      "5": "Dra ut sladden när du inte laddar. Laddarna använder fortfarande lite elektricitet även när ingenting laddas.",
+      "6_heading": "Använd ljusinsläpp:",
+      "6": "Dra inte för gardinerna när det är soligt utan använd ljusinsläppet istället för att tända lampor.",
+      "7_heading": "Tänk till om dina elektriska prylar:",
+      "7": "Lämna inte TV:n eller datorn på när du inte använder dem. Dra ut laddare och liknande som lyser men inte används. ",
+      "8": "På vissa platser finns möjlighet att använda ren energi från sol och vind. Det är riktigt bra för miljön. Genom att tänka till kring hur vi använder elektrisk energi kan vi hjälpa till att rädda vår planet och fortsätta ha det bra tillsammans på den!"
+    }
+  },
+  "plant_moisture": {
+    "info": {
+      "1": "Hur vet vi om växterna får tillräckligt med vatten? Vi har grävt ner sensorer i jorden som mäter fuktigheten på olika djup. Sensorerna berättar hur stor andel av jorden som innehåller vatten.",
+      "2": "Föreställ dig att jorden har små utrymmen som en svamp. Vissa utrymmen är fyllda med vatten medan andra inte är det. Om sensorerna säger att vattenhalten är 20% betyder det att av de 100 små utrymmena är det 20 som är fyllda med vatten. \n\nNär vattenhalten ligger mellan 20-40% är det lagom blött. Under 20% är det för torrt och över 40% är det för blött.",
+      "3": "Det finns bara en viss mängd vatten på vår planet och en del platser har inte tillräckligt. Vi kan hjälpa till att hushålla med vatten och hålla växter friska genom att ge dem precis rätt mängd vatten. Då använder vi vattnet på ett smart sätt och slösar inte med det. Genom att vattna rätt gör vi växterna glada och sparar på det viktiga vattnet.",
+      "4": "Växter gör något väldigt bra för oss  – de ger oss frisk luft! De tar den dåliga luften vi inte behöver och ger tillbaka fin och ren luft att andas. Så när vi tar väl hand om växter tar de också hand om oss. Och vet du vad? Genom att ta hand om växter är du som en superhjälte för vår planet! Växter är hem för insekter och djur som gör jorden vacker och grön.",
+      "5": "Hur kan man planera för att fuktigheten i jorden ska fungera bra för växterna som är planterade just där?"
+    },
+    "about": "Om markens fuktighet",
+    "unit": "% jordfuktighet",
+    "level": {
+      "dry": "🥵 Alldeles för torrt",
+      "ok": "😌 Tillräckligt fuktig",
+      "wet": "💦 Alldeles för blött",
+      "no_data": "Data saknas"
+    },
+    "note": {
+      "dry": "Jorden är väldigt torr just nu. Vad händer om jorden är torr för länge?",
+      "ok": "Nu mår jorden bra och är lagom fuktig. Varför är det bra för växterna?",
+      "wet": "Jorden är väldigt blöt nu. Vad innebär det om jorden är för blöt under lång tid?",
+      "no_data": "Det verkar som sensorn inte fungerar. Kanske behöver den nytt batteri?"
+    }
+  },
+  "co2": {
+    "timeline": "Tidslinje för luftkvalité: PPM CO2",
+    "unit": "PPM",
+    "title": "Luftkvaliteten: ppm Co2",
+    "level": {
+      "excellent": "Utmärkt",
+      "good": "Jättebra",
+      "fair": "Bra",
+      "poor": "Inte så bra",
+      "bad": "Dålig"
+    },
+    "note": {
+      "excellent": "Luften är bra  - njut av din lektion i frisk luft!",
+      "good": "Bra förutsättningar för att lära.",
+      "fair": "Skapliga förutsättningar för att lära sig saker.",
+      "poor": "Inte så bra luft för att lära sig saker. ",
+      "bad": "Luften är usel för att kunna lära sig saker."
+    },
+    "info": {
+      "1": "Koldioxid är en gas som vi andas ut och när det finns lite av den är det bra. Men när det finns för mycket koldioxid i klassrummet kan det göra att vi känner oss trötta, det blir svårare att koncentrera sig och det kan även göra att vi får ont i huvudet.",
+      "2": "Ppm är ett sätt att mäta koldioxidnivåer. Det står för \"delar per miljon\" (parts per million). Ppm berättar hur många koldioxidmolekyler som finns i luften vi andas. Ju lägre Ppm desto bättre luftkvalitet!\n\nSka luften i klassrummet upplevas som bra ska koldoxidnivån vara under 600 ppm. Är nivån mellan 600-800 ppm behöver ni förmodligen få in frisk luft. Allt över 800 ppm ger sämre förutsättningar för en bra lärmiljö.",
+      "3": "Du håller luften fräsch genom att öppna fönster och ta korta pauser utanför rummet. Växter hjälper också till att rengöra luften, så att vi mår bra inomhus!"
+    },
+    "about": "Om koldioxid"
+  },
+  "particles": {
+    "25_note": {
+      "good": "Luften är jättebra!",
+      "moderate": "Det finns lite för mycket partiklar i luften. Vad kan du göra för att undvika dem?",
+      "poor": "Luften är inte så bra. Hur kommer det sig?",
+      "bad": "Varning för mycket dålig luft! Hur kommer det sig?"
+    },
+    "100_note": {
+      "good": "Luften är jättebra!",
+      "moderate": "Luften innehåller bara lite för mycket partiklar.",
+      "poor": "Luften är inte så bra. Vad kommer det sig?",
+      "bad": "Varning för mycket dålig luft!"
+    },
+    "level": {
+      "good": "Bra",
+      "moderate": "Helt ok",
+      "poor": "Inte bra",
+      "bad": "Dålig"
+    },
+    "100_quick_link": "Luftkvalité 10 PPM",
+    "25_quick_link": "Luftkvalité 2,5 PPM",
+    "100_title": "Luftkvalité nu: PM 10 mikrometer",
+    "25_title": "Luftkvalité nu: PM 2,5 mikrometer",
+    "unit": "µg/m³",
+    "100_timeline": "Tidslinje för luftkvalité: PM 10 mikrometer",
+    "25_timeline": "Tidslinje för luftkvalité: PM 2,5 mikrometer",
+    "100_about": "PM10-partiklar",
+    "25_about": "PM2,5-partiklar",
+    "100_info": {
+      "1": "PM10 avser partiklar med en diameter på 10 mikrometer eller mindre. Dessa partiklar är större än PM2,5-partiklar och kan ibland ses som små fläckar av damm eller rök. De kommer från källor som damm från byggarbetsplatser, pollen, rök från brinnande trä och partiklar som dras upp av fordon eller vind.\n\nPartikelhalt mäts i mikrogram per kvadratmeter (µg/m³). För PM10 är ett värde mellan 25-50 µg/m³ helt okej. Allt under 25 µg/m³ är bra och över 50 µg/m³ är luften dålig.",
+      "2": "Vi kan minska PM10-partiklar genom att hålla rent, sopa upp damm och undvika att göra sådant som gör att damm eller rök virvlar upp. ",
+      "3": "Om det är höga partikelnivåer i utomhusluften kan vi använda ansiktsmasker som är anpassade till att filtrera bort partiklar - speciellt vid tillfällen när du gör något som rör upp mycket damm. När det är dålig utomhusluft kan vi också vara mer inomhus eller hitta platser där luften är renare som exempelvis parker eller skog där det finns många träd."
+    },
+    "25_info": {
+      "1": "PM2.5 betyder att det är partiklar med en diameter av 2,5 mikrometer eller mindre. Dessa partiklar är mycket små och kan inte ses med blotta ögat.\n\nFör PM2,5 är ett värde mellan 13-35 µg/m³ helt okej. Allt under 13 µg/m³ är bra och över 35 µg/m³ är luften dålig.",
+      "2": "Partiklarna kommer från fordonsavgaser, utsläpp från industrier, rök från bränder, damm och föroreningar från fabriker. Aktiviteter som att bränna fossila bränslen, bygga hus och till och med matlagning kan bidra till fler PM2.5-partiklar i luften.",
+      "3": "Vi kan bidra till att minska PM2.5-partiklar genom att använda rena energikällor, så som sol- eller vindkraft, och genom att plantera träd och skapa grönområden.",
+      "4": "Om partikelnivåerna är höga kan vi använda ansiktsmasker anpassade för att filtrera bort PM2.5-partiklar. Vi kan också stanna inomhus och stänga fönster för att inte släppa in den förorenade luften."
+    }
+  },
+  "temperature": {
+    "outside_temp": {
+      "less_than-25": "Superkallt",
+      "less_than-10": "Jättekallt",
+      "less_than8": "Kallt",
+      "less_than15": "Svalt",
+      "less_than25": "Varmt",
+      "less_than35": "Väldigt varmt"
+    },
+    "inside_temp": {
+      "less_than14": "Supervarmt",
+      "less_than16": "Kallt",
+      "less_than19": "Rätt kallt",
+      "less_than24": "Bra ",
+      "less_than28": "För varmt",
+      "more_than28": "På tok för varmt"
+    },
+    "inside_note": {
+      "less_than14": "Det är svårt att utföra skolarbetet när det är för kallt. ",
+      "less_than16": "Tycker du det här är en bra arbetstemperatur?",
+      "less_than19": "Tycker du det här är en bra arbetstemperatur?",
+      "less_than24": "Det är perfekt temperatur för ett klassrum.",
+      "less_than28": "Tycker du det här är en bra arbetstemperatur?",
+      "more_than28": "Nu är det alldeles för varmt."
+    },
+    "outside_note": {
+      "less_than-25": "Att vara utomhus kan vara farligt. ",
+      "less_than-10": "Sätt på dig varma kläder! ",
+      "less_than8": "Ta på dig jacka och halsduk!",
+      "less_than15": "Tycker du det att det här är en normal temperatur för årstiden?",
+      "less_than25": "Tycker du det att det här är en normal temperatur för årstiden?",
+      "less_than35": "Det är väldigt varmt ute! ",
+      "more_than35": "Det är alldeles för varmt att vara utomhus. Var försiktig!"
+    },
+    "temperature_outdoor": "Temperatur (utomhus)",
+    "temperature": "Temperatur",
+    "inside_timeline": "Tidslinje för temperatur",
+    "deg": "°C",
+    "indor_about": "Om inomhustemperaturen",
+    "outside_about": "Om utomhustemperaturen",
+    "outdor_info": {
+      "1": "Temperaturen visar om det är varmt eller kallt. Det hjälper oss att veta vilket typ av väder vi kan förvänta oss.",
+      "2": "Vi mäter temperaturen i grader Celsius (°C). När det fryser ute är det 0°C, och när vattnet kokar är det 100°C. En solig dag känns det varmt utomhus och då kan temperaturen vara 20 till 25°C. Inomhus kan ett rum som är 18°C kännas bekvämt. På vintern blir det kallt utomhus - allt från 5°C och kallare.",
+      "3": "Under det senaste århundradet har jordens medeltemperatur stigit. Detta sker på grund av saker som vi människor gör, så som att bränna fossila bränslen (kol, olja och gas) och hugga ner för många träd. Dessa saker gör att det släpps ut växthusgaser i luften. Växthusgaser gör att värmen från solen fastnar och att vår planet värms upp. Som ett resultat av uppvärmningen smälter glaciärer och havsnivåerna stiger. Vi får också fler perioder med riktigt hög temperatur, så kallade väremböljor. \n\nMen vi kan hjälpas åt att göra saker bättre! Vad kan vi göra för att minska jordens uppvärmning?"
+    },
+    "indor_info": {
+      "1": "Temperaturen mäter hur varmt eller kallt något är. Vi använder grader Celsius (°C) för detta. En behaglig studietemperatur är runt 20-24°C. En bra temperatur hjälper oss att fokusera och lära oss bättre.",
+      "2": "Vilken inomhustemperatur vi har påverkar vår planet. Genom att använda för mycket energi för uppvärmning och nedkylning frigörs onödigt mycket växthusgaser som orsakar klimatförändringar. Låt oss tillsammans bli mer hållbara:",
+      "3": "Använd mindre energi: Stäng av onödiga lampor, fläktar och AC (Air Condition) för att spara energi och pengar.",
+      "4": "Klä dig bra: Ta på dig något som värmer om rummet är kallt och ta av dig ett lager när rummet är varmt.",
+      "5": "Naturlig ventilation: Öppna fönster när det är möjligt att få in frisk luft.",
+      "6": "Plantera växter och träd: Träd ger skugga och tar upp växthusgaser.",
+      "7": "Kanske har du något eget förslag?"
+    }
+  },
+  "food_menu": {
+    "menu": "Veckans matsedel",
+    "waste": "Avfall",
+    "range": {
+      "last_week": "Förra veckan",
+      "current_week": "Den här veckan",
+      "next_week": "Nästa vecka"
+    },
+    "note": {
+      "1": "Ät smart, slösa mindre!",
+      "2": "Tänk till när du tar av maten. Orkar du allt?",
+      "3": "Ta lagom mycket mat!",
+      "4": "Smaka först, gillar du det? ",
+      "5": "Bara du bestämmer vad och hur mycket som skall vara på din tallrik. ",
+      "6": "Många tallrikar gör stor skillnad!"
+    }
+  },
+  "food_waste": {
+    "menu": "Matsedel",
+    "food_waste_timeline": "Den senaste tidens slängda mat",
+    "per_student": "motsvarar ungefär {{per_student}} köttbullar per elev rakt ner i soporna",
+    "waste": "Matsvinn {{time}}",
+    "today": "idag",
+    "kg": "kg",
+    "about": "Om matavfall",
+    "info": {
+      "first": "Hur var maten du åt idag? Visste du att mycket skolmat slängs! Bara i vår stad väger matsvinnet från alla skolor lika mycket som en hel elefant!",
+      "second": "Här kan du se hur mycket mat som ni på skolan har slängt både från tallrikar och i köket. Matsvinnet anges i kilo. En köttbulle beräknas väga 12,5 gram. Allt matsvinn som väger mindre än 9 g per elev anses som bra. Är matsvinnet 10-20 gram per elev kan det bli bättre och allt över 20 gram per elev är alldeles för mycket.\n\nVisste du att de dagar när riktigt smaskig mat serveras, så kastas det MER mat i soporna än dagar med mindre god mat! Varför är det så tror du?",
+      "third": "Prata med dina klasskompisar. Varför slänger vi mat? Vad kan vi göra för att slänga mindre?"
+    },
+    "note": {
+      "good": "Bra, men vi kan bättre.",
+      "medium": "Lite för mycket hamnar i soporna, eller hur?",
+      "poor": "På tok för mycket mat har slängts."
+    }
+  },
+  "sound_level": {
+    "db": "dB",
+    "now": "Ljudnivå just nu",
+    "good": "Bra",
+    "medium": "Okej",
+    "poor": "Inte bra",
+    "noData": "Ingen data",
+    "sound_timeline": "Tidslinje för ljudnivå",
+    "note": {
+      "good": "Bra förutsättningar för inlärning",
+      "medium": "Svårt att koncentrera sig, svårt att lära sig saker",
+      "poor": "Dåliga förutsättningar för att lära sig"
+    },
+    "info": "Den lilla ljudsensorn som finns på klassrummets vägg mäter ljudnivån i klassrummet och visar det i Antiloop. Den lilla sensorn kan upptäcka hur höga rösterna är, mäta buller som uppstår när stolar dras ut, eller någon slamrar med saker. \n\nLjudnivån mäts i decibel (dB). När ljudnivån är mellan 60-80 dB upplevs den oftast som för hög bereonde på vad ni gör i klassrummet. Är ljudnivån under 60 dB är det bra förutsättningar för att koncentrera sig, och är den över 80dB är det alldels för högt.\n\nEtt klassrum ska ha en bra ljudnivå för att du ska kunna koncentrera och lära dig saker. Ett samtal på lägre volym är oftast bättre än när ljudvolymen är högre. Att sätta tennisbollar på stolsbenen gör att ljuden från stolarna blir lägre. \n\nTitta på kurvan för ljudnivån och prata med en kompis om vad du kan göra för att påverka den totala ljudnivån i klassrummet. ",
+    "about": "Om ljudnivån"
+  },
+  "info": "Information",
+  "school_home": "Skolans startsida",
+  "pages": "Sidor",
+  "integrations": "Integrationer",
+  "school_settings": "Skolans inställningar",
+  "name": "Namn",
+  "status": "Status",
+  "location": "Plats",
+  "sensors": "Sensorer",
+  "contact_us": "Kontakta oss för mer information",
+  "no_account_msg": "Hoppsan, ett sådant konto finns inte. Du behöver vara en lärare och vara inbjuden till systemet för att kunna logga in. Är du lärare?",
+  "no_account": "Kontot finns inte",
+  "ok": "Okej, jag förstår",
+  "current_number_of_total": "{{current}} av {{total}}",
+  "hello": "Hej!",
+  "add_your_school": "Vi vill att fler skolor ska använda Antiloop. Klicka här för att läsa mer.",
+  "work_space": "Arbetsyta",
+  "logout": "Logga ut",
+  "active": "Aktiv",
+  "inactive": "Inaktiv",
+  "battery": "Batteri",
+  "a11y": {
+    "current_selected": "Valda",
+    "logo": "logotyp",
+    "sensors_table": "Tabell för sensorer",
+    "integrations_table": "Tabell för integrationer",
+    "pages_table": "Tabell för sidor",
+    "sound_level_alt": "{{variant}} bild för ljudnivå",
+    "meatballs_alt": "Bild för köttbullar per elev",
+    "temp_inside_alt": "{{temp}}, bild visar inomhustemperatur",
+    "temp_outside_alt": "{{temp}}, bild visar utomhustemperatur",
+    "particles_25_alt": "{{particles}} bild visar luftkvalitet: PM 2,5 mikrometer",
+    "particles_100_alt": "{{particles}} bild visar luftkvalitet: PM 10 mikrometer",
+    "co2_alt": "{{cotwo}} Luftkvalité: PPM CO2",
+    "electricity": {
+      "no_data": "Bild för koldioxidutsläpp",
+      "tree": "Träd",
+      "car": "Bil",
+      "plane": "Flygplan",
+      "energy": "Elektriska prylar",
+      "buns": "Kanelbullar"
+    },
+    "buttons": {
+      "close_menu": "Stäng menyn",
+      "user_menu": "Användarmeny",
+      "language_menu": "Meny för att byta språk, valt språk just nu är {{language}}",
+      "go_back": "Tillbaka till föregående sida",
+      "to_school_list": "Till lista över skolor",
+      "to_school": "Till skolan",
+      "close_modal": "Stäng fönster",
+      "expand_menu": "Expandera meny",
+      "prev_page": "Föregående sida",
+      "next_page": "Nästa sida",
+      "back_to_integrations": "Tillbaka till integrationer",
+      "sound_level_info": "Information om ljudnivå",
+      "inside_temp_info": "Information om inomhustemperatur",
+      "outside_temp_info": "Information om utomhustemperatur",
+      "food_waste_info": "Information om matavfall",
+      "particles_25_info": "Information om luftkvalité: PM 2,5",
+      "particles_100_info": "Information om luftkvalité: PM 10",
+      "electricity_info": "Information om elförbrukning",
+      "like_menu": "Gilla-meny",
+      "co2_info": "Information om luftkvalité: PPM CO2",
+      "reset_selected_range": "Återställ markerat intervall",
+      "soil_moisture_info": "Information om jordfuktighet",
+      "next_energy_conversion": "Nästa exempel",
+      "prev_energy_conversion": "Tidigare exempel"
+    }
+  }
+}

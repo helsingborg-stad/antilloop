@@ -1,0 +1,121 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
+ruby '3.2.2'
+
+# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+gem 'rails', '~> 7.0.5'
+
+# Use postgresql as the database for Active Record
+gem 'pg', '~> 1.1'
+
+# Use the Puma web server [https://github.com/puma/puma]
+gem 'puma', '~> 5.0'
+
+# Build JSON APIs with ease [https://github.com/rails/jbuilder]
+# gem "jbuilder"
+
+# Use Redis adapter to run Action Cable in production
+# gem "redis", "~> 4.0"
+
+# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
+# gem "kredis"
+
+# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
+# gem "bcrypt", "~> 3.1.7"
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+# Reduces boot times through caching; required in config/boot.rb
+gem 'bootsnap', require: false
+
+# Active Storage GCS
+gem 'google-cloud-storage', '~> 1.11', require: false
+
+# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
+# gem "image_processing", "~> 1.2"
+
+# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+gem 'rack-cors'
+
+# Reform: form objects decoupled from your models.
+gem 'disposable'
+gem 'reform'
+
+# Rails-support for Reform.
+gem 'reform-rails'
+
+# Representable maps Ruby objects to documents and back.
+gem 'representable', '~> 3.1'
+
+# Representable JSON support.
+gem 'multi_json', '~> 1.15'
+
+# Seamlessly adds a Swagger to Rails-based API's
+gem 'rswag'
+
+# A Ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
+gem 'jwt'
+
+# Authorization system
+gem 'pundit'
+
+# Pagination
+gem 'kaminari'
+
+# Faraday is an HTTP client library
+gem 'faraday'
+gem 'faraday-typhoeus'
+
+# Simple, efficient background processing for Ruby.
+gem 'sidekiq'
+
+# Monitoring
+gem 'newrelic_rpm', '~> 9.3'
+gem 'sentry-rails', '~> 5.10'
+gem 'sentry-ruby', '~> 5.10'
+
+# A micro library providing Ruby objects with Publish-Subscribe capabilities
+gem 'wisper'
+gem 'wisper-activejob'
+
+# Prosopite is able to auto-detect Rails N+1 queries with zero false positives / false negatives
+gem 'pg_query'
+gem 'prosopite'
+
+group :development, :test do
+  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'factory_bot_rails'
+  gem 'pry-rails'
+  gem 'rspec-rails', '~> 6.0.0'
+
+  # Shim to load environment variables from .env into ENV in development.
+  gem 'dotenv-rails'
+
+  # Record and replay your test suite's HTTP interactions.
+  gem 'vcr'
+
+  # Library for stubbing and setting expectations on HTTP requests in Ruby.
+  gem 'webmock'
+
+  # Rspec matcher and stubbing for Wisper.
+  gem 'wisper-rspec', require: false
+end
+
+group :development do
+  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec', require: false
+  gem 'spring'
+end
+
+group :test do
+  gem 'faker'
+  gem 'simplecov', require: false
+end
